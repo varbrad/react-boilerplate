@@ -7,8 +7,8 @@ const App = () => (
   </div>
 );
 
-render(<App />, null);
+render(<App />, document.getElementById('root'));
 
-const data = { maybe: [1, 2, 3] };
+const data = { maybe: [{ values: 123 }, 2, 3] };
 
-console.log(data.maybe?.[0]);
+console.log(data.maybe?.[50]?.values);
