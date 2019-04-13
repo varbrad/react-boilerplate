@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/varbrad/react-boilerplate.git",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint src"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
